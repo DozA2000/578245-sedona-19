@@ -1,7 +1,7 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Дмитрий Белых](https://up.htmlacademy.ru/adaptive/19/user/578245).
-* Наставник: `Неизвестно`.
+* Наставник: `Денис Власов`.
 
 ---
 
@@ -58,3 +58,7 @@ git clone SSH-адрес_вашего_форка
 [travis-url]: https://travis-ci.com/htmlacademy-adaptive/578245-sedona-19
 [dependency-image]: https://david-dm.org/htmlacademy-adaptive/578245-sedona-19/dev-status.svg?style=flat-square
 [dependency-url]: https://david-dm.org/htmlacademy-adaptive/578245-sedona-19?type=dev
+
+
+
+------------------
