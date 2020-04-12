@@ -46,40 +46,38 @@
           <h2 class="photo__headline">Фото и видео</h2>
           <b class="photo__slogan">Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о политике и экономике.</b>
         </div>
-        <div class="photo__wrapper">
           <ul class="photo__list ">
             <li class="photo__item">
               <img class="photo__picture" src="img/photo-1-mobile-jpg" width="280" height="280" alt="Фотография">
               <h3 class="photo__title">Неродные просторы</h3>
               <p class="photo__author">Автор фото: Борис</p>
-              <span class="photo__likes">1350</span>
+              <span class="photo__likes" aria-label="Likes" role="img">1350</span>
             </li>
             <li class="photo__item">
               <img class="photo__picture" src="img/photo-2-mobile-jpg" width="280" height="280" alt="Фотография">
               <h3 class="photo__title">Местная растительность</h3>
               <p class="photo__author">Автор фото: Сергей</p>
-              <span class="photo__likes">143</span>
+              <span class="photo__likes" aria-label="Likes" role="img">143</span>
             </li>
             <li class="photo__item">
               <img class="photo__picture" src="img/photo-3-mobile-jpg" width="280" height="280" alt="Фотография">
               <h3 class="photo__title">Местная растительность</h3>
               <p class="photo__author">Автор фото: Сергей</p>
-              <span class="photo__likes">143</span>
+              <span class="photo__likes" aria-label="Likes" role="img">143</span>
             </li>
             <li class="photo__item">
               <img class="photo__picture" src="img/photo-4-mobile-jpg" width="280" height="280" alt="Фотография">
               <h3 class="photo__title">Дорога на Север</h3>
               <p class="photo__author">Автор фото: Петр</p>
-              <span class="photo__likes">96</span>
+              <span class="photo__likes" aria-label="Likes" role="img">96</span>
             </li>
             <li class="photo__item">
               <img class="photo__picture" src="img/photo-5-mobile-jpg" width="280" height="280" alt="Фотография">
               <h3 class="photo__title">Мост дьявола</h3>
               <p class="photo__author">Автор фото: Антон</p>
-              <span class="photo__likes">254</span>
+              <span class="photo__likes" aria-label="Likes" role="img">254</span>
             </li>
           </ul>
-        </div>
       </section>
 
       <section class="video">
@@ -88,7 +86,21 @@
         <div class="video__wrapper">
           <img class="video__picture" src="img/video-mobile-jpg" width="321" height="201" alt="Видеоролик">
         </div>
-        <iframe width="280" height="45" src=http://www.youtube.com/embed/DkqwqwaUsBwe0fo allowfullscreen></iframe>
+
+          <div class="video__player">
+            <div class="video__controls">
+              <div class="video__scale">
+                <div class="video__bar" style="margin-left: 0%; width: 65%"></div>
+              </div>
+
+              <button class="video__reload"></button>
+              <button class="video__subtitles"></button>
+              <button class="video__fullwindows"></button>
+
+            </div>
+
+          </div>
+
       </section>
 
     </main>
