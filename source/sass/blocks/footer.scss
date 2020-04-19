@@ -1,0 +1,46 @@
+/**
+  * ===========================================================
+  * FOOTER SECTION
+  * ===========================================================
+  */
+
+
+.page-footer__wrapper {
+  width: 320px;
+}
+
+.social__title {
+  font-family: PTSans;
+  font-size: 21px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: $black;
+}
+
+.social__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.social__link {
+  text-decoration: none;
+}
+
+.copyright__text {
+  font-family: PTSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: $black;
+}

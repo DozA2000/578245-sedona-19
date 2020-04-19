@@ -1,0 +1,159 @@
+
+@font-face {
+  font-family: "PTSans";
+  src: local("PTSans Regular"), local("PTSans-Regular"),
+    url("../fonts/ptsans.woff") format("woff"),
+    url("../fonts/ptsans.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PTSans";
+  src: local("PTSans Bold"), local("PTSans-Bold"),
+    url("../fonts/ptsansbold.woff") format("woff"),
+    url("../fonts/ptsansbold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+$dark-two: #161c35;
+$pinkish-grey: #cccccc;
+$black-10: rgba(0, 0, 0, 0.1);
+$dark-blue-grey: #192144;
+$light-gold: #ffd74b;
+$dark-blue-grey-two: #121936;
+$mango-two: #ffbd30;
+$mango-three: #ffa530;
+$dark-slate-blue: #1d2e5b;
+$light-gold-30: rgba(255, 215, 75, 0.3);
+$dusty-orange: #f26926;
+$pale-grey-two: #dfe3f0;
+$light-blue-grey: #d1d7e9;
+$dark-slate-blue-30: rgba(29, 46, 91, 0.3);
+$pale-grey-three: #e2e5f1;
+$dark-slate-blue-two: #101e44;
+$greyish-brown-60: rgba(68, 68, 68, 0.6);
+$cloudy-blue-two: #aeb4cb;
+$black-30: rgba(0, 0, 0, 0.3);
+$bluey-grey: #959bb2;
+$light-blue-grey-two: #d6d9e6;
+$orange-red: #ff5c23;
+$cloudy-blue: #cbced9;
+$dark-blue-grey-three: #101d41;
+$dark-slate-blue-10: rgba(29, 46, 91, 0.1);
+$dark-slate-blue-70: rgba(29, 46, 91, 0.7);
+$blush: #f47e7e;
+$very-light-pink: #ffefef;
+$red: #ff0000;
+$salmon: #f97676;
+$pale-grey-four: #e2e5f2;
+$light-navy-30: rgba(19, 37, 118, 0.3);
+$light-navy-70: rgba(19, 37, 118, 0.7);
+$light-navy: #132576;
+$pale-grey-five: #f3f4f8;
+$mango-30: rgba(255, 141, 48, 0.3);
+$greyish-brown-50: rgba(68, 68, 68, 0.5);
+$light-gold-two: #ffd64b;
+$mango-two-30: rgba(255, 189, 48, 0.3);
+$white-60: rgba(255, 255, 255, 0.6);
+$dark-blue-grey-30: rgba(25, 33, 68, 0.3);
+$dark-blue-grey-60: rgba(25, 33, 68, 0.6);
+$light-blue-grey-four: #c8cee8;
+$green-apple: #81e31e;
+$light-tan: #f9d8d8;
+$tomato: #f02323;
+$dark-slate-blue-60: rgba(29, 46, 91, 0.6);
+$dark-two-60: rgba(22, 28, 53, 0.6);
+$macaroni-and-cheese: #f3c72b;
+$dark-two-30: rgba(22, 28, 53, 0.3);
+$dark-blue-grey-four: #141b3b;
+$medium-pink: #ed5565;
+$french-blue: #4758a9;
+$light-blue-grey-five: #d4d9eb;
+$steel-grey: #808285;
+$nasty-green: #72a73e;
+$lightblue: #8ec7f5;
+$blush-two: #eb9898;
+$black-60: rgba(0, 0, 0, 0.6);
+$greeny-blue: #56c3b2;
+$-whitetwo: #ececec;
+$mango: #ff8d30;
+$pale-grey: #edeff6;
+$very-light-pink-two: #f9eaea;
+$darkish-pink: #d24899;
+$black: #000000;
+$seafoam-blue: #63d1bb;
+$white-three: #f2f2f2;
+$very-light-pink-three: #cdcdcd;
+$brownish-grey: #666666;
+$white-five: #eaeaea;
+$white-six: #dcdcdc;
+$peachy-pink: #ff8282;
+$white-seven: #ebebeb;
+$pinkish-grey-two: #bababa;
+$greyish-brown-30: rgba(68, 68, 68, 0.3);
+$grass: #5eaa2f;
+$leaf: #68b738;
+$greyish-brown: #444444;
+$dark: #283645;
+$white-four: #dedede;
+$black-two: #111111;
+$light-periwinkle: #d6daed;
+$white: #f1f1f1;
+$white-30: rgba(255, 255, 255, 0.3);
+$black-two-30: rgba(17, 17, 17, 0.3);
+$white-two: #ffffff;
+$light-grey-blue: #81b3d2;
+$seafoam-blue-two: #62d1ba;
+$white-two: #ffffff;
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+div,
+section,
+a,
+ul,
+li,
+p,
+footer,
+header {
+  outline: 1px solid blue;
+}
+
+// body {
+//   background: red;
+// }
+
+.button {
+  width: 280px;
+  height: 58px;
+
+  display: block;
+  font-family: PTSans;
+  font-size: 21px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: center;
+  color: $white-two;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: $light-grey-blue;
+}

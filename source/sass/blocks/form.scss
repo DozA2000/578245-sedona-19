@@ -1,0 +1,90 @@
+
+/**
+  * ===========================================================
+  * FORM SECTION
+  * ===========================================================
+  */
+  .feedback__title {
+  font-family: PTSans;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: $black;}
+
+.feedback__subtitle {
+  font-family: "PTSans";
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.form__fieldset {
+  border: none;
+}
+
+.form__legend {
+  font-family: PTSans;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: $black;
+}
+
+.form__title {
+  font-family: PTSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: left;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.form__input {
+  font-family: PTSans;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: $black;
+}
+
+.form__selector-title {
+  font-family: PTSans;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: $black;
+}
+
+.form__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
