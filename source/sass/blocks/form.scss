@@ -4,8 +4,9 @@
   * FORM SECTION
   * ===========================================================
   */
-  .feedback__title {
-  font-family: PTSans;
+
+.feedback__title {
+  font-family: "PTSans", "Arial", sans-serif;
   font-size: 18px;
   font-weight: bold;
   font-stretch: normal;
@@ -14,10 +15,11 @@
   letter-spacing: normal;
   text-align: center;
   text-transform: uppercase;
-  color: $black;}
+  color: $black;
+}
 
 .feedback__subtitle {
-  font-family: "PTSans";
+  font-family: "PTSans", "Arial", sans-serif;
   font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
@@ -34,7 +36,7 @@
 }
 
 .form__legend {
-  font-family: PTSans;
+  font-family: "PTSans", "Arial", sans-serif;
   font-size: 18px;
   font-weight: bold;
   font-stretch: normal;
@@ -47,7 +49,7 @@
 }
 
 .form__title {
-  font-family: PTSans;
+  font-family: "PTSans", "Arial", sans-serif;
   font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
@@ -60,7 +62,7 @@
 }
 
 .form__input {
-  font-family: PTSans;
+  font-family: "PTSans", "Arial", sans-serif;
   font-size: 18px;
   font-weight: normal;
   font-stretch: normal;
@@ -72,7 +74,7 @@
 }
 
 .form__selector-title {
-  font-family: PTSans;
+  font-family: "PTSans", "Arial", sans-serif;
   font-size: 18px;
   font-weight: bold;
   font-stretch: normal;

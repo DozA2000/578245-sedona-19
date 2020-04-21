@@ -1,12 +1,12 @@
+@import "variables.scss";
+@import "mixins.scss";
 @import "blocks/header.scss";
-@import "global.scss";
+@import "global/fonts.scss";
+@import "global/layout.scss";
 @import "blocks/advantages.scss";
 @import "blocks/footer.scss";
 @import "blocks/media.scss";
 @import "blocks/form.scss";
-
-
-
 
 // body {
 //   background: green;
