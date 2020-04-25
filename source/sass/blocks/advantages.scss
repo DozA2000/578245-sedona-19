@@ -1,0 +1,210 @@
+/**
+  * ===========================================================
+  * ADVANTAGES SECTION
+  * ===========================================================
+  */
+
+.advantages__slogan {
+  font-family: "PTSans", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.advantages__intro {
+  font-family: "PTSans", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.advantages__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.advantages__item--1 {
+  min-height: 211px;
+  margin: 0;
+  padding: 0;
+  background-color: $light-grey-blue;
+}
+
+.advantages__title--white {
+  font-family: "PTSans", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.advantages__title--black {
+  font-family: "PTSans", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.advantages__number--white {
+  font-family: "PTSans", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.advantages__number--black {
+  font-family: "PTSans", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.advantages__description--white {
+  margin: 0;
+  padding: 0;
+  font-family: "PTSans", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.advantages__description--black {
+  margin: 0;
+  padding: 0;
+  font-family: "PTSans", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.advantages__photo {
+  margin: 0;
+  padding: 0;
+}
+
+.features {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: $white;
+}
+
+// .features__item {
+//   background-color: $white;
+// }
+
+.features__title {
+  margin: 0;
+  padding: 0;
+  font-family: "PTSans", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.features__description {
+  font-family: "PTSans", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.advantages__item--2 {
+  min-height: 191px;
+  background-color: $light-grey-blue;
+}
+
+.advantages__item--3,
+.advantages__item--4,
+.advantages__item--5 {
+  background-color: $pale-grey-five;
+}
+
+.request__wrapper {
+  width: 320px;
+}
+
+.request__title {
+  font-family: "PTSans", "Arial", sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.24;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: $black;
+}
+
+.request__description {
+  font-family: "PTSans", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 24px;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: $black;
+}
