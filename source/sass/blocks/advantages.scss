@@ -4,6 +4,14 @@
   * ===========================================================
   */
 
+  .advantages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    // background-color: #eeeeee;
+  }
+
 .advantages__slogan {
   font-family: "PTSans", "Arial", sans-serif;
   font-size: 18px;

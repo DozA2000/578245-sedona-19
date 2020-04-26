@@ -4,58 +4,138 @@
   * ===========================================================
   */
 
+.main-nav {
+  position: relative;
+
+  font-size: 18px;
+  line-height: 40px;
+  font-family: "PTSans", "Arial", sans-serif;
+  font-weight: bold;
+
+  z-index: 100;
+}
+
 .main-nav__list {
   margin: 0;
   padding: 0;
   list-style: none;
-  background-color: #81b3d2;
+}
+
+.main-nav__link {
+  display: block;
+  padding: 8px 20px;
+
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  color: #ffffff;
+
+  background-color: $light-grey-blue;
+  box-shadow: inset 0px -1px 0px #678fa8, inset 0px 1px 0px #9ac2db;
 }
 
 .site-list__item {
-  width: 320px;
+  min-width: 320px;
   height: 55px;
   // box-shadow: 0px 1px 0 0 rgba(1, 1, 1, 0.2);
 }
 
-.site-list__item a {
-  font-family: "PTSans", "Arial", sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2.22;
-  letter-spacing: normal;
-  text-align: center;
-  text-transform: uppercase;
-  color: #ffffff;
-  text-decoration: none;
-}
 
-.page-header__logo {
-  display: block;
-  width: 102px;
-  object-fit: contain;
-  // background-image: url("../img/logo-sedona-mobile.svg");
-  // background-repeat: no-repeat;
-}
+// .page-header__menu-bar {
+//   display: flex;
+//   // width: 102px;
+//   // object-fit: contain;
+//   // background-image: url("../img/logo-sedona-mobile.svg");
+//   // background-repeat: no-repeat;
+// }
 
-.page-header__wrapper {
-  width: 320px;
-}
+// // .page-header__wrapper {
+// //   width: 320px;
+// // }
 
 .page-header__promo {
   position: relative;
-  width: 320px;
-  object-fit: contain;
 
-  // z-index: 200;
+  height: 388px;
+
+  background-image: url("../img/bg-back-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: center 0px;
+  background-size: 768px auto;
 }
 
-.promo__img {
+.promo__title {
   position: absolute;
 
-  top: -57px;
-  left: 50%;
+  top: 30px;
+  left: 15%;
 
-  // z-index: 100;
+  margin-left: -51px;
+
+  // width: 102px;
+  // height: 84px;
+
+  z-index: 100;
+}
+
+/**
+  * ===========================================================
+  * HEADER SECTION tablet
+  * ===========================================================
+  */
+
+@media (min-width: $tablet-width) {
+  .main-nav {
+    min-height: 56px;
+  }
+
+  .page-header__promo {
+    min-height: 518px;
+    background-image: url("../img/bg-back-tablet@1x.jpg");
+  }
+
+  .main-nav__list {
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: $white;
+
+    // .clearfix;
+  }
+
+  .main-nav__item {
+    width: 20%;
+  }
+
+  .main-nav__link {
+    padding: 15px 20px;
+    padding-right: 16px;
+
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 25px;
+
+    color: $black;
+    // background-color: #ffffff;
+    box-shadow: none;
+  }
+
+  .main-nav__control {
+    display: none;
+  }
+
+}
+
+/**
+  * ===========================================================
+  * HEADER SECTION desktop
+  * ===========================================================
+  */
+
+@media (min-width: $desktop-width) {
+  .page-header__promo {
+    background-image: url("../img/bg-back-desktop@1x.jpg");
+    background-size: 1200px auto;
+  }
 }

@@ -4,8 +4,28 @@
   * ===========================================================
   */
 
-.page-footer__wrapper {
-  width: 320px;
+  .page-footer {
+    padding: 18px 15px;
+
+
+    font-family: "PTSans", "Arial", sans-serif;
+    font-weight: normal;
+
+    // background-color: #fefefe;
+    text-align: center;
+  }
+
+// .page-footer__wrapper {
+//   width: 320px;
+// }
+
+.page-footer__header {
+  margin-bottom: 32px;
+
+  font-size: 21px;
+  line-height: 26px;
+
+  text-transform: uppercase;
 }
 
 .social__title {
@@ -31,6 +51,33 @@
   text-decoration: none;
 }
 
+.page-footer__copyright {
+  position: relative;
+
+  margin: 0 auto;
+  margin-top: 36px;
+
+  min-width: 128px;
+
+  font-size: 14px;
+  line-height: 26px;
+
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.page-footer__copyright-link {
+  display: inline-block;
+  position: relative;
+
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+
+  color: #000000;
+  text-decoration: none;
+}
+
 .copyright__text {
   font-family: "PTSans", "Arial", sans-serif;
   font-size: 14px;
@@ -43,3 +90,77 @@
   text-transform: uppercase;
   color: $black;
 }
+
+/**
+  * ===========================================================
+  * PAGE FOOTER tablet
+  * ===========================================================
+  */
+
+  @media (min-width: $tablet-width) {
+
+  .page-footer {
+    padding: 20px 60px;
+    @include clearfix;
+  }
+
+  .page-footer__header {
+    vertical-align: top;
+
+    float: left;
+    margin: 25px 0px;
+
+    width: 235px;
+
+    text-align: left;
+  }
+
+  .page-footer__social {
+    vertical-align: top;
+
+    float: left;
+
+    width: 156px;
+    margin: 10px 10px;
+    margin-left: 10px;
+  }
+
+  .page-footer__copyright {
+    vertical-align: top;
+
+    float: right;
+
+    margin: 0px;
+    margin-top: 19px;
+
+    width: 228px;
+
+    text-align: right;
+  }
+}
+
+/**
+  * ===========================================================
+  * PAGE FOOTER desktop
+  * ===========================================================
+  */
+
+  @media (min-width: $desktop-width) {
+
+    .page-footer {
+      padding: 20px 43px;
+      padding-left: 131px;
+    }
+
+    .page-footer__header {
+      width: 375px;
+    }
+
+    .page-footer__social {
+      margin: 10px 15px;
+    }
+
+    .page-footer__copyright {
+      width: 278px;
+    }
+  }
