@@ -5,6 +5,26 @@
   * ===========================================================
   */
 
+.form {
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+
+  padding-bottom: 36px;
+
+  background-color: #ffffff;
+
+  font-size: 14px;
+  line-height: 26px;
+  font-family: "PTSans", "Arial", sans-serif;
+  font-weight: normal;
+
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
 .feedback__title {
   font-family: "PTSans", "Arial", sans-serif;
   font-size: 18px;

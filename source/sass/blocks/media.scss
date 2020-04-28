@@ -31,12 +31,35 @@
 }
 
 .photo__list {
+  display: flex;
+  flex-direction: column;
+
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
+.photo__item {
+  margin: 0 auto;
+  padding: 20px;
+  padding-top: 22px;
+  padding-bottom: 9px;
+
+  font-size: 14px;
+  line-height: 24px;
+  text-align: left;
+
+  border-top: 1px solid #e5e5e5;
+}
+
 .photo__title {
+  display: flex;
+  flex-direction: column;
+
+  padding: 0px;
+  padding-top: 15px;
+
+  width: 280px;
   font-family: "PTSans", "Arial", sans-serif;
   font-size: 14px;
   font-weight: bold;
@@ -50,6 +73,14 @@
 }
 
 .photo__author {
+  display: flex;
+  flex-direction: column;
+
+  padding: 0px;
+  padding-top: 15px;
+
+  width: 280px;
+
   font-family: "PTSans", "Arial", sans-serif;
   font-size: 14px;
   font-weight: normal;
@@ -98,3 +129,157 @@
   text-transform: uppercase;
   color: #333333;
 }
+
+/**
+  * ===========================================================
+  * PHOTOS SECTION tablet
+  * ===========================================================
+  */
+
+  @media (min-width: $tablet-width) {
+
+    .photo__list {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      padding: 21px 60px;
+
+      font-size: 0px;
+    }
+
+    .photo__item {
+      padding: 0px;
+      margin: 0px;
+
+      width: 50%;
+
+      border: none;
+      overflow: hidden;
+
+      & img {
+        width: 100%;
+        height: 267px;
+      }
+
+      &--large {
+        width: 100%;
+        height: 480px;
+      }
+    }
+
+    .photo__item-caption {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      box-sizing: border-box;
+
+      padding: 15px 20px;
+      padding-right: 10px;
+      padding-bottom: 17px;
+      margin: 0px;
+
+      width: 100%;
+
+      background-color: #f2f2f2;
+      overflow: hidden;
+    }
+
+    .photo__item-id {
+      width: 210px;
+    }
+
+    .photo__title {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+
+    .photo__author {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+
+    .photo__likes {
+
+      margin-top: 8px;
+      margin-right: 9px;
+
+      height: 35px;
+
+      text-align: left;
+      }
+   }
+
+  /**
+  * ===========================================================
+  * PHOTOS SECTION desktop
+  * ===========================================================
+  */
+
+  @media (min-width: $desktop-width) {
+
+    .photo__list {
+      padding: 0px;
+      margin: 0px;
+    }
+
+    .photo__item {
+      position: relative;
+
+    flex-grow: 1;
+
+    padding: 0px;
+    margin: 0px;
+
+    width: 33.33%;
+    height: 267px;
+
+    color: #ffffff;
+    border: none;
+    overflow: hidden;
+
+      & img {
+        width: 100%;
+        height: 267px;
+      }
+
+      &--large {
+        width: 100%;
+        height: 400px;
+      }
+
+      &--large .photo__item-id {
+        width: 1000px;
+      }
+
+      &--large img {
+        width: 100%;
+        height: 400px;
+      }
+    }
+
+    .photo__item-caption {
+        position: absolute;
+
+        bottom: 0px;
+        left: 0px;
+
+        background-color: rgba(0, 0, 0, 0.3);
+
+    }
+
+    .photo__item-id {
+      width: 280px;
+    }
+  }
+
+
+  /**
+  * ===========================================================
+  * VIDEO SECTION
+  * ===========================================================
+  */
+
+  

@@ -4,6 +4,8 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
   <link href="css/style.css" rel="stylesheet">
 </head>
 
@@ -11,30 +13,29 @@
 
 
   <header class="page-header">
-
     <nav class="main-nav">
-      <button class="main-nav__toggle" type="button">Закрыть</button>
-      <div class="main-nav__wrapper">
-        <ul class="main-nav__list site-list">
-          <li class="site-list__item site-list__item--active">
-            <a href="index.html">Главная</a>
-          <li class="site-list__item"> <a href="photo.html">Фото и видео</a> </li>
-          <li class="site-list__item"> <a href="form.html">Форма отзыва</a> </li>
-          <li class="site-list__item"> <a href="#">HTML Academy</a> </li>
-        </ul>
-        <div class="page-header__wrapper">
-          <a class="page-header__logo">
-            <img class="page-header__top-logo" src="img/logo-sedona-mobile.svg" alt="City of Sedona">
-          </a>
-          <button class="page-header__menu" type="button">Меню</button>
-        </div>
-        <section class="page-header__promo">
-          <h1 class="visually-hidden">Седона, штат Аризона</h1>
-          <img class="promo__title" src="img/text-sedona-index.svg" width="460" height="350"
-            alt="Welcome to the gargeous Sedona">
-        </section>
+      <ul class="main-nav__list site-list">
+        <li class="site-list__item site-list__item--active"> <a class="main-nav__link">Главная</a> </li>
+        <li class="site-list__item"> <a class="main-nav__link" href="photo.html">Фото и видео</a> </li>
+        <li class="site-list__item"> <a class="main-nav__link" href="form.html">Форма отзыва</a> </li>
+        <li class="site-list__item"> <a class="main-nav__link" href="#">HTML Academy</a> </li>
+      </ul>
+      <div class="main-nav__control">
+        <button class="main-nav__btn  main-nav__btn-open hidden" type="button">
+          Открыть меню
+        </button>
+        <button class="main-nav__btn  main-nav__btn-close hidden" type="button">
+          Закрыть меню
+        </button>
       </div>
     </nav>
+
+      <section class="page-header__promo">
+        <h1 class="visually-hidden">Седона, штат Аризона</h1>
+        <img class="page-header__top-logo" src="img/logo-sedona-mobile.svg" alt="City of Sedona">
+        <img class="promo__title" src="img/text-sedona-index.svg" width="460" height="350"
+          alt="Welcome to the gargeous Sedona">
+      </section>
   </header>
 
 
@@ -49,29 +50,45 @@
           и экономике.</b>
       </div>
       <ul class="photo__list">
-        <li class="photo__item">
+        <li class="photo__item photo__item--large">
           <img class="photo__picture" src="img/photo-sunset-mobile@1x.jpg" width="280" height="280" alt="Фотография">
-          <h3 class="photo__title">Неродные просторы</h3>
-          <p class="photo__author">Автор фото: Борис</p>
-          <span class="photo__likes" aria-label="Likes" role="img">1350</span>
+          <div class="photo__item-caption">
+            <div class="photo__item-id">
+              <h3 class="photo__title">Неродные просторы</h3>
+              <p class="photo__author">Автор фото: Борис</p>
+            </div>
+              <span class="photo__likes" aria-label="Likes" role="img">1350</span>
+          </div>
         </li>
         <li class="photo__item">
           <img class="photo__picture" src="img/photo-cactus-mobile@1x.jpg" width="280" height="280" alt="Фотография">
+          <div class="photo__item-caption">
+            <div class="photo__item-id">
           <h3 class="photo__title">Местная растительность</h3>
           <p class="photo__author">Автор фото: Сергей</p>
+          </div>
           <span class="photo__likes" aria-label="Likes" role="img">143</span>
+          </div>
         </li>
         <li class="photo__item">
           <img class="photo__picture" src="img/photo-roads-mobile@1x.jpg" width="280" height="280" alt="Фотография">
+          <div class="photo__item-caption">
+            <div class="photo__item-id">
           <h3 class="photo__title">Дорога на Север</h3>
           <p class="photo__author">Автор фото: Сергей</p>
+          </div>
           <span class="photo__likes" aria-label="Likes" role="img">143</span>
+          </div>
         </li>
         <li class="photo__item">
           <img class="photo__picture" src="img/photo-bridge-mobile@1x.jpg" width="280" height="280" alt="Фотография">
+          <div class="photo__item-caption">
+            <div class="photo__item-id">
           <h3 class="photo__title">Мост дьявола</h3>
           <p class="photo__author">Автор фото: Антон</p>
+          </div>
           <span class="photo__likes" aria-label="Likes" role="img">254</span>
+          </div>
         </li>
       </ul>
     </section>
@@ -103,32 +120,22 @@
 
   <footer class="page-footer">
     <div class="page-footer__wrapper">
-      <!-- <div class="page-footer__contacts">
-          <h2 class="contacts__title">#Visitsedona</h2> -->
-      <!-- <p class="contacts__text">
-            г. Санкт-Петербург, ул. Большая Конюшенная 19/8<br>
-            <a class="contacts__phone" href="tel:+78125556666">
-            </a>
-          </p> -->
+      <!-- <div class="page-footer__contacts"> <h2 class="contacts__title">#Visitsedona</h2> -->
+      <!-- <p class="contacts__text"> г. Санкт-Петербург, ул. Большая Конюшенная 19/8<br> <a class="contacts__phone" href="tel:+78125556666"> </a> </p> -->
       <!-- </div> -->
+      <h2 class="page-footer__header">#visitsedona</h2>
       <div class="page-footer__social social">
-        <a class="social__title">#Visitsedona</a>
         <ul class="social__list">
-          <li class="social__item">
-            <a class="social__link social__link--twitter" href="https://tw.com/sedona">Мы в Твитере</a>
-          </li>
-          <li class="social__item">
-            <a class="social__link social__link--facebook" href="https://www.facebook.com/sedona">Мы в Фейсбуке</a>
-          </li>
-          <li class="social__item">
-            <a class="social__link social__link--youtube" href="https://www.youtube.com/sedona">Мы в Ютубе</a>
-          </li>
+          <li class="social__item"> <a class="social__link social__link--twitter" href="https://tw.com/sedona">Мы в
+              Твитере</a> </li>
+          <li class="social__item"> <a class="social__link social__link--facebook"
+              href="https://www.facebook.com/sedona">Мы в Фейсбуке</a> </li>
+          <li class="social__item"> <a class="social__link social__link--youtube"
+              href="https://www.youtube.com/sedona">Мы в Ютубе</a> </li>
         </ul>
       </div>
-      <div class="page-footer__copyright copyright">
-        <b class="copyright__text">Разработано:</b>
-        <a class="button copyright__link visually-hidden" href="https://htmlacademy.ru/intensive/adaptive">HTML
-          Academy</a>
+      <div class="page-footer__copyright">
+        <a class="page-footer__copyright-link" href="https://htmlacademy.ru">Разработано:</a>
       </div>
     </div>
   </footer>
