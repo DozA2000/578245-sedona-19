@@ -14,10 +14,10 @@
   <header class="page-header">
     <nav class="main-nav">
       <ul class="main-nav__list site-list">
-        <li class="site-list__item site-list__item--active"> <a class="main-nav__link">Главная</a> </li>
-        <li class="site-list__item"> <a class="main-nav__link" href="photo.html">Фото и видео</a> </li>
-        <li class="site-list__item"> <a class="main-nav__link" href="form.html">Форма отзыва</a> </li>
-        <li class="site-list__item"> <a class="main-nav__link" href="#">HTML Academy</a> </li>
+        <li class="main-nav__item site-list__item--active"> <a class="main-nav__link">Главная</a> </li>
+        <li class="main-nav__item"> <a class="main-nav__link" href="photo.html">Фото и видео</a> </li>
+        <li class="main-nav__item"> <a class="main-nav__link" href="form.html">Форма отзыва</a> </li>
+        <li class="main-nav__item"> <a class="main-nav__link" href="#">HTML Academy</a> </li>
       </ul>
       <div class="main-nav__control">
         <button class="main-nav__btn  main-nav__btn-open hidden" type="button">
@@ -100,8 +100,11 @@
     </section>
     <section class="contacts">
       <h2 class="visually-hidden">Контакты</h2>
-      <div class="contacts__wrapper"> <img class="contacts__map-picture" src="img/bg-map-mobile@1x.jpg" width="320"
-          height="350" alt="Карта"> </div>
+      <picture>
+        <source media="(min-width: 1200px)" srcset="img/bg-map-desktop@1x.jpg 1x">
+        <source media="(min-width: 768px)" srcset="img/bg-map-tablet@1x.jpg 1x">
+        <img class="location__map" src="img/bg-map-mobile@1x.jpg" alt="Седона на карте">
+      </picture>
     </section>
   </main>
   <footer class="page-footer">

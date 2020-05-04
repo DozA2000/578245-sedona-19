@@ -99,39 +99,30 @@
 
   @media (min-width: $tablet-width) {
 
-  .page-footer {
-    padding: 20px 60px;
-    @include clearfix;
+  .page-footer__wrapper {
+    display: flex;
+  align-items: center;
+  justify-content: space-around;
   }
 
   .page-footer__header {
     vertical-align: top;
-
-    float: left;
-    margin: 25px 0px;
 
     width: 235px;
 
     text-align: left;
   }
 
-  .page-footer__social {
+  .social__list {
+
+    display: flex;
+
     vertical-align: top;
 
-    float: left;
-
-    width: 156px;
-    margin: 10px 10px;
-    margin-left: 10px;
   }
 
   .page-footer__copyright {
     vertical-align: top;
-
-    float: right;
-
-    margin: 0px;
-    margin-top: 19px;
 
     width: 228px;
 
