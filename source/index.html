@@ -47,11 +47,18 @@
       </div>
       <ul class="advantages__list">
         <li class="advantages__item advantages__item--1">
+          <div class="advantages__item--desc advantages__item--true-town">
           <h3 class="advantages__title--white">Настоящий городок</h3> <span class="advantages__number--white">— №1
             -</span>
           <p class="advantages__description--white">Седона не аттракцион для туристов, там течет своя жизнь</p>
-          <img class="advantages__photo" src="img/main-city-mobile@1x.jpg" width="320" height="260"
-            alt="Фотография города">
+          </div>
+          <div class="advantages__item--pict advantages__item--pict-town">
+            <picture>
+              <source media="(min-width: $desktop-width)" srcset="img/main-city@1x.jpg 1x, img/main-city@2x.jpg 2x">
+              <source media="(min-width: $tablet-width)" srcset="img/main-city-tablet@1x.jpg 1x, img/main-city-tablet@2x.jpg 2x">
+              <img class="advantages__item-photo" src="img/main-city-mobile@1x.jpg" alt="Фото города">
+            </picture>
+          </div>
           <ul class="features">
             <li class="features__item features__item--house">
               <h4 class="features__title">Жилье</h4>
@@ -68,11 +75,15 @@
           </ul>
         </li>
         <li class="advantages__item advantages__item--2">
-          <h3 class="advantages__title--white">Там есть Мост дьявола</h3> <span class="advantages__number--white">— №2
+          <div class="advantages__item--desc advantages__item--true-town">
+            <h3 class="advantages__title--white">Там есть Мост дьявола</h3> <span class="advantages__number--white">— №2
             -</span>
-          <p class="advantages__description--white">Да, по нему можно пройти! Если Вы осмелитесь, конечно</p>
-          <img class="advantages__photo" src="img/main-bridge-mobile@1x.jpg" width="320" height="260"
+            <p class="advantages__description--white">Да, по нему можно пройти! Если Вы осмелитесь, конечно</p>
+          </div>
+          <div class="advantages__item--pict advantages__item--pict-bridge">
+            <img class="advantages__photo" src="img/main-bridge-mobile@1x.jpg" width="320" height="260"
             alt="Фотография моста">
+          </div>
         </li>
         <li class="advantages__item advantages__item--3">
           <h3 class="advantages__title--black">Небольшая площадь</h3> <span class="advantages__number--black">— №3
